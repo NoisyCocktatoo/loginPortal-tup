@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, ::before, ::after{
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif, helvetica, arial;
+  margin: 0;
+  padding: 0;
+}
+
+.app-main {
+  height: 100vh;
+  @apply bg-gradient-to-t from-red-700 to-red-50;
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  place-items: center;
+  padding-bottom: 10px;
+  /* background: radial-gradient(#B56667, #8C1112); */
+  background: radial-gradient(at 50% bottom,#bf7777, #901515);
+}
+
+.top p{
+  margin-left: 95px;
+  color: white;
+  font-size: 12px;
+  font-weight: bolder;
+  transform: scale(1.6 ,1.6);
+  padding-top: 8px;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  width: 68px;
+  height: auto;
+  margin-left: 25px;
+  margin-top: 7px;
+}
+
+
+
+.contents {
+  display: grid;
+  place-items: center;
+}
+
+.UA {
+  align-items: center;
+  font-size: 20px;
+}
+
+.container{
+  border: 1px solid black;
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background: linear-gradient(
+    180deg,
+    rgba(98, 84, 85, 1) 0%,
+    rgba(90, 56, 57, 1) 100%
+  );
+  box-shadow: 2px 5px 12px 6px black;
+  margin-top: 20px;
+  color: white;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.line{
+  border-top: 2px solid white;
+}
+
+.contents input{
+  margin-top: 0px;
+  width: 550px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.btn{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+
+.btn button{
+  background: #B71921;
+  color: white;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border: 0.5px solid white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.btn .login{
+  padding-left: 25px;
+  padding-right: 25px; 
+}
+
+.SAM{
+  font-size: 24px;
+  margin-top: 30px;
+  font-weight: 700;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.Footer{
+  display: grid;
+  place-items: center;  
+  margin-top: 290px;
+  border-top: 2px dotted #777777;
+  width: 100%;
+  height: 40px;
+}
+
+.powered{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  margin-bottom: 0px;
+}
+
+.formore{
+  margin: 0;
+}
+
+.web{
+  margin: 0;
+}
+
+.aims{
+  width: 100px;
+  height: 40px;
+  margin: 0;
+}
+
+.pinnacle{
+  width: 100px;
+  height: 40px;
+}
+
+.footlong{
+  color: blue;
+}
